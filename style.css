@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 1300px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #f2f2f2;
+  font-family: Tahoma;
+  font-size: 25px;
+}
+/*phần chung*/
+:root {
+  --mau-chinh: white;
+}
+.container {
+  margin-left: 340px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* hết phần chung */
+
+.nav{
+  background-color: #44245C;
+}
+.nav .box {
+  display: flex;
+  width: 100%;
+  height: 62px;
+  gap: 190px;
+  align-items: center;
+}
+.nav .box .nav-left,
+.nav-right {
+  display: flex;
+}
+.nav .box .nav-left li,
+.nav .box .nav-right li {
+  padding: 0px 20px;
+}
+.nav .box .nav-left a,
+.nav .box .nav-right a {
+  color: var(--mau-chinh);
+  font-size: 18px;
+  font-weight: 100;
+}
+.tail-content .container {
+  display: flex;
+  gap: 7px;
+}
+.tail-content .content-left {
+  margin-left: 52px;
+}
+.tail-content .row {
+  display: flex;
+}
+.tail-content .row img {
+  width: 230px;
+  height: 230px;
+  margin-left: 5px;
+}
+.sub-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.tail-content .content-left .board {
+  border: 20px solid white;
+}
+.board .row {
+  margin-left: 45px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+.board .row img {
+  border: 5px solid #D1D1D1;
+}
